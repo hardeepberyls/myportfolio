@@ -14,7 +14,7 @@ const Taball=()=>{
                                 <img src="./BSN.png" alt="card-1" className='img-fluid rounded-3' />
                                 <div className="col-md-12 overlay">
                                     <div className="col-md-12 eyeicon">
-                                        <VisibilityIcon fontSize='large' onClick={()=> window.open('https://www.breathingsciencenetwork.com/bsn/','_blank')}/>
+                                        <VisibilityIcon fontSize='large' onClick={()=> (window.location.href = "/project1")}/>
                                     </div>
                                 </div>
                             </div>
