@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../common/Navbar";
 import { NavLink } from "react-router-dom";
-import Mailbutton from "./Mailbutton";
-import Callbutton from "./Callbutton";
-import Footer from "./Footer";
+import Mailbutton from "../components/Mailbutton";
+import Callbutton from "../components/Callbutton";
+import Footer from "../common/Footer";
 
 const Contact = () => {
   return (

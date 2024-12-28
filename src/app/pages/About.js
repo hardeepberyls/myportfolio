@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Navbar from "./Navbar";
+import Navbar from "../common/Navbar";
 import ProgressBar from "@ramonak/react-progress-bar";
-import Footer from "./Footer";
+import Footer from "../common/Footer";
 
 const About = () => {
   return (

@@ -7,9 +7,9 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Taball from './Taball';
-import Tabweb from './Tabweb';
-import Tabother from './Tabother';
+import Taball from '../components/Taball';
+import Tabweb from '../components/Tabweb';
+import Tabother from '../components/Tabother';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -68,8 +68,8 @@ export default function FullWidthTabs() {
           aria-label="full width tabs example"
         >
           <Tab label="All" {...a11yProps(0)} />
-          <Tab label="Web" {...a11yProps(1)} />
-          <Tab label="Graphics" {...a11yProps(2)} />
+          <Tab label="Projects with HTML" {...a11yProps(1)} />
+          <Tab label="Projects with React JS" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
       <SwipeableViews

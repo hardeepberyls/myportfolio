@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./app/Navbar";
-import Footer from "./app/Footer";
-import Tab from "./app/ReactTab";
+import Navbar from "../common/Navbar";
+import Footer from "../common/Footer";
+import Tab from "../pages/ReactTab";
 import { NavLink } from "react-router-dom";
 const Home = () => {
   return (
@@ -13,7 +13,9 @@ const Home = () => {
       <div className="col-md-8 mx-auto">
         <div className="about_sctn">
           <div className="about-section">
-            <h3>about ourself</h3>
+            <h3>
+              <span className="abt">abo</span>ut ourself
+            </h3>
           </div>
           <div className="about-content">
             <p>
@@ -33,6 +35,14 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+      <section>
+        <div className="col-md-8 mx-auto">
+          <div className="title">
+            <h2><span>Fea</span>tured Projects</h2>
+          </div>
+        </div>
+      </section>
       <Tab />
       <Footer />
     </>

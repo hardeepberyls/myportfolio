@@ -17,10 +17,15 @@ body {
 .navs li a {
   font-size: 15px;
   font-weight: 600;
-  color: #888888 !important;
+  color: #1e1e1e !important;
 }
 .navs li a:hover {
-  color: #daa520 !important;
+  color: #ffc736 !important;
+}
+.about-section h3 .abt,
+.title h2 span {
+  color: #ffc736;
+  border-bottom: 2px solid #ffc736;
 }
 .banner {
   width: 100%;
@@ -84,7 +89,7 @@ body {
 .footer_section {
   background-color: #e9e8e6;
   padding: 20px 0px;
-  position: fixed;
+  position: relative;
   bottom: 0px;
   width: 100%;
 }
@@ -162,7 +167,7 @@ body {
   background-color: #daa520 !important;
 }
 .tab_wrapper {
-  padding-top: 100px;
+  margin-top: 10px;
   padding-bottom: 90px;
 }
 .card_image {
@@ -201,7 +206,7 @@ body {
 .about_contact a {
   font-size: 15px;
   font-weight: 500;
-  background-color: #bf9b30;
+  background-color: #ffc736;
   padding: 10px 10px;
   color: #ffffff;
   text-decoration: none;
@@ -284,6 +289,10 @@ body {
 }
 .about_sctn {
   margin-top: 125px;
+  box-shadow: 0 0px 35px 0px rgb(34 34 34 / 15%);
+  padding: 25px 25px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .about-content p {
   font-size: 14px;
@@ -304,7 +313,7 @@ body {
 .about_btn a {
   font-size: 14px;
   font-weight: 600;
-  background-color: #bf9b30;
+  background-color: #ecac37;
   color: #ffffff;
   padding: 10px 10px;
   border-radius: 4px;
@@ -313,6 +322,7 @@ body {
 }
 .about_btn a:hover {
   color: #ffffff;
+  background-color: #bf9b30;
 }
 .contact_banner {
   background-color: #bf9b30;
@@ -366,7 +376,7 @@ body {
   margin-top: 120px !important;
 }
 .tech_used h4 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
   text-transform: capitalize;
 }
@@ -379,8 +389,10 @@ body {
   font-weight: 600;
   color: #be9a30;
 }
-.skl {
-  background-color: #be9a30;
+.html,
+.css,
+.bootstrap {
+  background-color: #e86127;
   padding: 6px 12px;
   border-radius: 30px;
   font-size: 14px;
@@ -388,11 +400,89 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+.css {
+  background-color: #142fd7;
+}
+.bootstrap {
+  background-color: #7910f1;
+}
 .visit_website a {
   font-size: 15px;
   font-weight: 500;
   color: #be9a30;
 }
-.visit_website a:hover{
+.visit_website a:hover {
   color: #be9a30;
+}
+.about-content {
+  padding-top: 10px;
+}
+.title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px;
+}
+.title {
+  margin-top: 54px;
+}
+.carousel #demos {
+  position: relative;
+  z-index: 0;
+}
+
+.projectTitle h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px;
+}
+.overview_content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: justify;
+  color: #222222;
+}
+.overview_section,
+.demo_section {
+  margin-bottom: 38px;
+}
+.tech_used {
+  margin-bottom: 15px;
+}
+.tech_skill span:nth-child(2) {
+  margin: 0px 15px;
+}
+.feature_section {
+  margin: 38px 0px;
+}
+.kf_content ol li {
+  padding-top: 10px;
+  list-style: disc;
+}
+.kf_content ol li h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.kf_content ol ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 3px;
+}
+.demo_link a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #be9a30;
+  text-decoration: underline;
+}
+.gallery_section .projectTitle{
+  padding-bottom: 10px;
+}
+.demo_section .projectTitle,.overview_section .projectTitle{
+  padding-bottom: 10px;
+}
+.demo_link p{
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
 }
